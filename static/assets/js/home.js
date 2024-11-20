@@ -172,16 +172,16 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Over 8 Million Users since 2023",
+  "Est. 2024",
   "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
+  "Made by Neven12376",
+  "Enjoy the afterlife!",
   "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
-  "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+  "Made with help from DrNate1010 and vannsigma)",
+  "Check out Phantom (https://github.com/DrNate1010/phantom-proxy)",
+  "Check out my other projects(https://github.com/Neven12376",
+  "Check out settings page",
+  "Thanks interstellar for the bones of the project",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
@@ -195,22 +195,11 @@ function US() {
 SplashE.innerText = SplashT[SplashI];
 
 SplashE.addEventListener("click", US);
-// Random URL
+// enter your deployment link here if you don't want about blank to go so you can use for SparXXS
 function getRandomUrl() {
   const randomUrls = [
-    "https://kahoot.it",
-    "https://classroom.google.com",
-    "https://drive.google.com",
-    "https://google.com",
-    "https://docs.google.com",
-    "https://slides.google.com",
-    "https://www.nasa.gov",
-    "https://blooket.com",
-    "https://clever.com",
-    "https://edpuzzle.com",
-    "https://khanacademy.org",
-    "https://wikipedia.org",
-    "https://dictionary.com",
+    "https://ghost-blush-five.vercel.app",
+   
   ];
   return randomUrls[randRange(0, randomUrls.length)];
 }
