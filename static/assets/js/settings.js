@@ -248,7 +248,7 @@ function AB() {
   try {
     inFrame = window !== top;
   } catch (e) {
-    inFrame = true;
+    inFrame = false;
   }
 
   if (!inFrame && !navigator.userAgent.includes("Firefox")) {
