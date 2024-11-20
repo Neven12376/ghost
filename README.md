@@ -37,15 +37,15 @@
 You must run these commands on your server:
 
 ```bash
-git clone https://github.com/UseInterstellar/Interstellar
-cd Interstellar
+git clone https://github.com/Neven12376/ghost
+cd ghost
 ```
 
 #### Ad-Free Deployment
 
 ```bash
-git clone --branch Ad-Free https://github.com/UseInterstellar/Interstellar
-cd Interstellar
+git clone --branch Ad-Free https://github.com/Neven12376/ghost
+cd ghost
 ```
 
 Next depending on your package manager, run one of the following commands:
@@ -80,12 +80,12 @@ npm run start
 ### Updating
 
 ```bash
-cd Interstellar
+cd ghost
 git pull --force --allow-unrelated-histories # This may overwrite your local changes
 ```
 
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/UseInterstellar/Interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/UseInterstellar/Interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/Neven12376/ghost"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/Neven12376/ghost"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
 
 #### What happened to Replit Deployment?
@@ -120,8 +120,6 @@ As of January 1st, 2024, Replit is [no longer free](https://blog.replit.com/host
 
 If you encounter problems, open an issue on GitHub, and we'll address it promptly.
 
-> [!TIP]
-> If you're having trouble, don't hesitate to reach out to us on [Discord](https://discord.gg/interstellar) for personalized support.
 
 # Credits
 Neven12376
