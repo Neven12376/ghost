@@ -1,7 +1,7 @@
 // Ads
 document.addEventListener("DOMContentLoaded", () => {
   function adChange(selectedValue) {
-    if (selectedValue === "default") {
+    if (selectedValue === "off") {
       localStorage.setItem("ads", "on");
     } else if (selectedValue === "popups") {
       localStorage.setItem("ads", "popups");
@@ -295,7 +295,7 @@ function AB() {
 }
 
 function toggleAB() {
-  ab = localStorage.getItem("ab");
+  ab = localStorage.getItem("ab", "true");
   if (!ab) {
     localStorage.setItem("ab", "true");
   } else if (ab === "true") {
