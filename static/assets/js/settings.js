@@ -344,19 +344,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function getRandomURL() {
   const randomURLS = [
-    "https://kahoot.it",
-    "https://classroom.google.com",
-    "https://drive.google.com",
-    "https://google.com",
-    "https://docs.google.com",
-    "https://slides.google.com",
-    "https://www.nasa.gov",
-    "https://blooket.com",
-    "https://clever.com",
-    "https://edpuzzle.com",
-    "https://khanacademy.org",
-    "https://wikipedia.org",
-    "https://dictionary.com",
+    "https://ghost-blush-five.vercel.app",
+    
   ];
   return randomURLS[randRange(0, randomURLS.length)];
 }
